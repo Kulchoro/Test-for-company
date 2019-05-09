@@ -1,0 +1,60 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: #999;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+li {
+  list-style: none;
+}
+
+.banner {
+  padding: 50px;
+  margin-bottom: -100px;
+}
+.up-menu {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  margin-right: 180px;
+  margin-bottom: 0;
+  padding-right: 150px;
+}
+
+.icon {
+  margin-left: 15px;
+}
+.fas {
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+input {
+  border: none;
+}
+.navbar ul li {
+  display: inline-block;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  margin-right: 150px;
+}
+.navbar ul li a {
+  margin: 15px;
+  text-align: center;
+}
+.navbar ul li a:hover {
+  color: rgb(133, 228, 196);
+  text-decoration: underline;
+  text-decoration-color: rgb(133, 228, 196);
+}
+.navbar ul li a:focus {
+  color: rgb(133, 228, 196);
+  text-decoration: underline;
+  text-decoration-color: rgb(133, 228, 196);
+}
